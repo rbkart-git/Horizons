@@ -335,8 +335,8 @@ h6 {
     height: 57px;
     border-radius: 50%;
     background-color: rgba(66, 119, 255, 0.5);
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
+    -webkit-transition: 0.45s;
+    transition: 0.45s;
   }
   .menu-burger__button:hover .menu-burger__lines {
     -webkit-filter: brightness(0.7);
