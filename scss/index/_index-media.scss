@@ -1,0 +1,433 @@
+/*----- Стили для устройств с шириной экрана более 1200px -----*/
+@media (min-width: 1200px) {
+     .menu-burger {
+          display: none;
+     }
+}
+//
+//
+//
+/*----- Стили для устройств с шириной экрана от 992px до 1199.9px-----*/
+@media (min-width: 992px) and (max-width: 1199.9px) {
+     .container {
+          padding: 0px 15px 0px 15px;
+     }
+     .menu-burger {
+          display: none;
+     }
+}
+//
+//
+//
+/*----- Стили для устройств с шириной экрана от 768px до 991.9px-----*/
+@media (min-width: 768px) and (max-width: 991.9px) {
+     .container {
+          padding: 0px 15px 0px 15px;
+     }
+     .header-list {
+          display: none;
+     }
+     .header-button {
+          display: none;
+     }
+     .menu-burger {
+          display: block;
+          &__button {
+               position: absolute;
+               top: 22px;
+               right: 25px;
+               z-index: 100;
+               width: 57px;
+               height: 57px;
+               border-radius: 50%;
+               background-color: rgba(66, 119, 255, 0.5);
+               transition: 0.4s;
+          }
+          &__button:hover &__lines {
+               filter: brightness(0.7);
+          }
+          &__button:hover {
+               background-color: rgba(66, 119, 255, 0.7);
+          }
+          &__active &__button {
+               background-color: transparent;
+          }
+          &__lines::before,
+          &__lines::after,
+          &__lines {
+               position: absolute;
+               width: 35px;
+               height: 3px;
+               background-color: #4277ff;
+               transition: 0.4s;
+          }
+
+          &__lines {
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+          }
+
+          &__lines::before {
+               content: "";
+               top: -12px;
+          }
+
+          &__lines::after {
+               content: "";
+               top: 12px;
+          }
+
+          &__active &__lines {
+               background-color: transparent;
+          }
+          &__active &__lines::before {
+               top: 0;
+               transform: rotate(45deg);
+               background-color: #fff;
+          }
+          &__active &__lines::after {
+               top: 0;
+               transform: rotate(-45deg);
+               background-color: #fff;
+          }
+
+          &__list {
+               padding: 150px 0px 70px 0px;
+               position: absolute;
+               top: 0;
+               z-index: 20;
+               display: flex;
+               flex-flow: column;
+               width: 80%;
+               min-height: 100%;
+               background-color: rgba(66, 119, 255, 0.8);
+               overflow-y: auto;
+               right: -150%;
+               transition: 0.8s;
+          }
+
+          &__active &__list {
+               right: 0;
+               transition: 0.4s;
+          }
+
+          &__item {
+               margin: 35px auto;
+          }
+
+          &__item-link {
+               font-family: "Lato Light";
+               font-weight: 300;
+               font-size: 36px;
+               line-height: 24px;
+               color: #ffffff;
+          }
+
+          &__overlay {
+               display: none;
+               position: fixed;
+               top: 0;
+               left: 0;
+               width: 100vw;
+               height: 100vh;
+               z-index: 10;
+          }
+          &__active &__overlay {
+               display: block;
+               background-color: rgba(0, 0, 0, 0.7);
+          }
+     }
+}
+//
+//
+//
+/*----- Стили для устройств с шириной экрана от 480px до 767.9px-----*/
+@media (min-width: 480px) and (max-width: 767.9px) {
+     .container {
+          padding: 0px 15px 0px 15px;
+     }
+     .header-list {
+          display: none;
+     }
+     .header-button {
+          display: none;
+     }
+     .menu-burger {
+          display: block;
+          &__button {
+               position: absolute;
+               top: 22px;
+               right: 25px;
+               z-index: 100;
+               width: 57px;
+               height: 57px;
+               border-radius: 50%;
+               background-color: rgba(66, 119, 255, 0.5);
+               transition: 0.4s;
+          }
+          &__button:hover &__lines {
+               filter: brightness(0.7);
+          }
+          &__button:hover {
+               background-color: rgba(66, 119, 255, 0.7);
+          }
+          &__active &__button {
+               background-color: transparent;
+          }
+          &__lines::before,
+          &__lines::after,
+          &__lines {
+               position: absolute;
+               width: 35px;
+               height: 3px;
+               background-color: #4277ff;
+               transition: 0.4s;
+          }
+
+          &__lines {
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+          }
+
+          &__lines::before {
+               content: "";
+               top: -12px;
+          }
+
+          &__lines::after {
+               content: "";
+               top: 12px;
+          }
+
+          &__active &__lines {
+               background-color: transparent;
+          }
+          &__active &__lines::before {
+               top: 0;
+               transform: rotate(45deg);
+               background-color: #fff;
+          }
+          &__active &__lines::after {
+               top: 0;
+               transform: rotate(-45deg);
+               background-color: #fff;
+          }
+
+          &__list {
+               padding: 150px 0px 70px 0px;
+               position: absolute;
+               top: 0;
+               z-index: 20;
+               display: flex;
+               flex-flow: column;
+               width: 90%;
+               min-height: 100%;
+               background-color: rgba(66, 119, 255, 0.8);
+               overflow-y: auto;
+               right: -150%;
+               transition: 0.8s;
+          }
+
+          &__active &__list {
+               right: 0;
+               transition: 0.4s;
+          }
+
+          &__item {
+               margin: 25px auto;
+          }
+
+          &__item-link {
+               font-family: "Lato Light";
+               font-weight: 300;
+               font-size: 30px;
+               line-height: 24px;
+               color: #ffffff;
+          }
+
+          &__overlay {
+               display: none;
+               position: fixed;
+               top: 0;
+               left: 0;
+               width: 100vw;
+               height: 100vh;
+               z-index: 10;
+          }
+          &__active &__overlay {
+               display: block;
+               background-color: rgba(0, 0, 0, 0.7);
+          }
+     }
+     .mainbg {
+          min-height: 550px;
+          padding: 130px 0px 130px 0px;
+     }
+     .mainbg-title {
+          margin: 0px 0px 20px 0px;
+          text-align: center;
+          &__text {
+               margin: 0px 0px 20px 0px;
+          }
+          &__text:nth-child(2) {
+               margin: 0px 0px 20px 0px;
+          }
+          &__text:nth-child(3) {
+               margin: 0px 0px 0px 0px;
+          }
+     }
+     .mainbg-text {
+          margin: 0px 0px 20px 0px;
+     }
+     .mainbg-button {
+          margin: 0 auto;
+     }
+}
+/*----- Стили для устройств с шириной экрана от 320px до 479.9px-----*/
+@media (min-width: 320px) and (max-width: 479.9px) {
+     .container {
+          padding: 0px 15px 0px 15px;
+     }
+     .header-list {
+          display: none;
+     }
+     .header-button {
+          display: none;
+     }
+     .menu-burger {
+          display: block;
+          &__button {
+               position: absolute;
+               top: 22px;
+               right: 25px;
+               z-index: 100;
+               width: 57px;
+               height: 57px;
+               border-radius: 50%;
+               background-color: rgba(66, 119, 255, 0.5);
+               transition: 0.4s;
+          }
+          &__button:hover &__lines {
+               filter: brightness(0.7);
+          }
+          &__button:hover {
+               background-color: rgba(66, 119, 255, 0.7);
+          }
+          &__active &__button {
+               background-color: transparent;
+          }
+          &__lines::before,
+          &__lines::after,
+          &__lines {
+               position: absolute;
+               width: 35px;
+               height: 3px;
+               background-color: #4277ff;
+               transition: 0.4s;
+          }
+
+          &__lines {
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+          }
+
+          &__lines::before {
+               content: "";
+               top: -12px;
+          }
+
+          &__lines::after {
+               content: "";
+               top: 12px;
+          }
+
+          &__active &__lines {
+               background-color: transparent;
+          }
+          &__active &__lines::before {
+               top: 0;
+               transform: rotate(45deg);
+               background-color: #fff;
+          }
+          &__active &__lines::after {
+               top: 0;
+               transform: rotate(-45deg);
+               background-color: #fff;
+          }
+
+          &__list {
+               padding: 100px 0px 70px 0px;
+               position: absolute;
+               top: 0;
+               z-index: 20;
+               display: flex;
+               flex-flow: column;
+               width: 100%;
+               min-height: 100%;
+               background-color: rgba(66, 119, 255, 0.8);
+               overflow-y: auto;
+               right: -150%;
+               transition: 0.8s;
+          }
+
+          &__active &__list {
+               right: 0;
+               transition: 0.4s;
+          }
+
+          &__item {
+               margin: 15px 0px 15px 10%;
+          }
+
+          &__item-link {
+               font-family: "Lato Light";
+               font-weight: 300;
+               font-size: 24px;
+               line-height: 24px;
+               color: #ffffff;
+          }
+
+          &__overlay {
+               display: none;
+               position: fixed;
+               top: 0;
+               left: 0;
+               width: 100vw;
+               height: 100vh;
+               z-index: 10;
+          }
+          &__active &__overlay {
+               display: block;
+               background-color: rgba(0, 0, 0, 0.7);
+          }
+     }
+     .mainbg {
+          min-height: 400px;
+          padding: 80px 0px 80px 0px;
+     }
+     .mainbg-title {
+          margin: 0px 0px 10px 0px;
+          text-align: center;
+          &__text {
+               font-size: 36px;
+               margin: 0px 0px 7px 0px;
+          }
+          &__text:nth-child(2) {
+               font-size: 36px;
+               margin: 0px 0px 7px 0px;
+          }
+          &__text:nth-child(3) {
+               font-size: 36px;
+               margin: 0px 0px 0px 0px;
+          }
+     }
+     .mainbg-text {
+          margin: 0px 0px 20px 0px;
+     }
+     .mainbg-button {
+          margin: 0 auto;
+     }
+}

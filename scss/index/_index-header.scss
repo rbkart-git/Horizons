@@ -1,0 +1,61 @@
+/*---------- Стили для секции header ----------*/
+.wrapper {
+     background: #fff;
+}
+.header {
+     max-width: 100%;
+     padding: 22px 0px 22px 0px;
+}
+.container {
+     max-width: $widthdefault;
+     margin: 0 auto;
+}
+.header-wrapper {
+     display: flex;
+     justify-content: space-between;
+}
+.header-logo {
+     max-width: 197px;
+     height: 57px;
+     &__image {
+          max-width: 100%;
+          min-height: 100%;
+          object-fit: cover;
+     }
+}
+.header-list {
+     display: flex;
+     align-items: center;
+     margin: -2px 0px 0px -40px;
+     &__item {
+          margin: 0px 20px 0px 20px;
+     }
+
+     &__item-link {
+          font-family: $fontfamily;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 20px;
+          color: $colorfontdefault;
+     }
+}
+.header-button {
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     &__image {
+          max-width: 18px;
+          min-height: 18px;
+          object-fit: cover;
+          margin: -2px 0px 0px 0px;
+     }
+
+     &__link {
+          margin: 0px 0px 0px 10px;
+          font-family: $fontfamily;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 20px;
+          color: #4277ff;
+     }
+}
