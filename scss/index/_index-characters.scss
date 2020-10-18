@@ -1,1 +1,231 @@
-/*---------- Стили для секции characters ----------*/
+.characters {
+     max-width: 100%;
+     margin: 0px 0px 100px 0px;
+}
+.container {
+     max-width: $widthdefault;
+     margin: 0 auto;
+}
+.characters-title {
+     font-family: $fontfamily;
+     font-weight: 800;
+     font-size: 36px;
+     line-height: 48px;
+     text-align: center;
+     color: $colorfontdefault;
+     margin: 0px 0px 50px 0px;
+     letter-spacing: 0.4px;
+}
+.characters-wrapper {
+     display: flex;
+     align-items: flex-start;
+     &__leftside {
+          max-width: 430px / $widthdefault * 100%;
+          margin: 0px 70px 0px 0px;
+     }
+
+     &__leftside-item1 {
+          margin: 120px 0px 418px 0px;
+     }
+
+     &__leftside-item1-title {
+          font-family: $fontfamily;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: $colorfontdefault;
+          margin: 0px 0px 20px 0px;
+          letter-spacing: 0.2px;
+     }
+
+     &__leftside-item1-text {
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 24px;
+          color: $colorfontdefault;
+          margin: 0px 0px 20px 0px;
+     }
+
+     &__leftside-item2 {
+     }
+
+     &__leftside-item2-title {
+          font-family: $fontfamily;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: $colorfontdefault;
+          margin: 0px 0px 20px 0px;
+          letter-spacing: 0.2px;
+     }
+
+     &__leftside-item2-text {
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 24px;
+          color: $colorfontdefault;
+          margin: 0px 0px 20px 0px;
+     }
+
+     &__rightside {
+          max-width: 670px / $widthdefault * 100%;
+     }
+
+     &__rightside-item1 {
+          max-width: 286px / 670px * 100%;
+          min-height: 246px;
+          overflow: hidden;
+     }
+
+     &__rightside-item1-image1 {
+          width: 100%;
+          height: 200px;
+          border-radius: 40px;
+          object-fit: cover;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__rightside-title {
+          font-family: $fontfamily;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+          color: #000000;
+     }
+
+     &__rightside-text {
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 18px;
+          color: #000000;
+     }
+
+     &__rightside-item2 {
+          max-width: 354px / 670px * 100%;
+          min-height: 294px;
+          overflow: hidden;
+          margin: -85px 0px 0px 316px / 670px * 100%;
+     }
+
+     &__rightside-item1-image2 {
+          width: 100%;
+          height: 248px;
+          border-radius: 40px;
+          object-fit: cover;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__rightside-title2 {
+          font-family: $fontfamily;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+          color: #000000;
+          text-align: right;
+     }
+
+     &__rightside-text2 {
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 18px;
+          color: #000000;
+          text-align: right;
+     }
+
+     &__rightside-item3 {
+          max-width: 208px / 670px * 100%;
+          min-height: 185px;
+          overflow: hidden;
+          margin: -112px 0px 0px 0px;
+     }
+
+     &__rightside-item3-image3 {
+          width: 100%;
+          height: 139px;
+          border-radius: 40px;
+          object-fit: cover;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__rightside-item4 {
+          max-width: 216px / 670px * 100%;
+          min-height: 197px;
+          overflow: hidden;
+          margin: -9px 0px 0px 434px / 670px * 100%;
+     }
+
+     &__rightside-item4-image4 {
+          width: 100%;
+          height: 151px;
+          border-radius: 40px;
+          object-fit: cover;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__rightside-item5 {
+          max-width: 360px / 670px * 100%;
+          min-height: 298px;
+          overflow: hidden;
+          margin: -67px 0px 0px 24px / 670px * 100%;
+     }
+
+     &__rightside-item5-image5 {
+          width: 100%;
+          height: 252px;
+          border-radius: 40px;
+          object-fit: cover;
+          margin: 0px 0px 10px 0px;
+     }
+
+     &__rightside-item6 {
+          max-width: 286px / 670px * 100%;
+          min-height: 248px;
+          overflow: hidden;
+          margin: 45px 0px 0px 246px / 670px * 100%;
+     }
+
+     &__rightside-item6-image6 {
+          width: 100%;
+          height: 200px;
+          border-radius: 40px;
+          object-fit: cover;
+          margin: 0px 0px 11px 0px;
+     }
+
+     &__rightside-title6 {
+          font-family: $fontfamily;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+          color: #000000;
+          text-align: right;
+     }
+
+     &__rightside-text6 {
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 18px;
+          color: #000000;
+          text-align: right;
+     }
+
+     &__rightside-item7 {
+          max-width: 216px / 670px * 100%;
+          min-height: 197px;
+          overflow: hidden;
+          margin: -40px 0px 0px 0px;
+     }
+
+     &__rightside-item7-image7 {
+          width: 100%;
+          height: 151px;
+          border-radius: 40px;
+          object-fit: cover;
+          margin: 0px 0px 10px 0px;
+     }
+}
