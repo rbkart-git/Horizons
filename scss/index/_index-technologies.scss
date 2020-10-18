@@ -1,0 +1,53 @@
+/*---------- Стили для секции technologies ----------*/
+
+.technologies {
+     max-width: 100%;
+}
+.container {
+     max-width: 1304px;
+     margin: 0 auto;
+}
+.technologies-wrapper {
+     display: flex;
+     align-items: flex-start;
+     &__leftside {
+          max-width: 647px / 1304px * 100%;
+          min-height: 500px;
+          background: url("../image/index/optimized/technologies_bg.webp"),
+               url("../image/index/technologies_bg-optimized.jpg");
+          background-repeat: no-repeat;
+          background-position: top center;
+          background-size: cover;
+     }
+
+     &__leftside-title {
+     }
+
+     &__leftside-text {
+     }
+
+     &__rightside {
+          max-width: 548px / 1304px * 100%;
+          min-height: 446px;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+     }
+
+     &__rightside-item {
+          max-width: 269px / 548px * 100%;
+          min-height: 198px;
+     }
+
+     &__rightside-logo {
+     }
+
+     &__rightside-logo-image {
+     }
+
+     &__rightside-title {
+     }
+
+     &__rightside-text {
+     }
+}

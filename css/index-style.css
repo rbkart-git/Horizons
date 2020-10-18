@@ -647,6 +647,52 @@ h6 {
   margin: 0px 0px 10px 0px;
 }
 
+/*---------- Стили для секции technologies ----------*/
+.technologies {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1304px;
+  margin: 0 auto;
+}
+
+.technologies-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.technologies-wrapper__leftside {
+  max-width: 49.61656%;
+  min-height: 500px;
+  background: url("../image/index/optimized/technologies_bg.webp"), url("../image/index/technologies_bg-optimized.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.technologies-wrapper__rightside {
+  max-width: 42.02454%;
+  min-height: 446px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.technologies-wrapper__rightside-item {
+  max-width: 49.08759%;
+  min-height: 198px;
+}
+
 /*----- Стили для устройств с шириной экрана более 1200px -----*/
 @media (min-width: 1200px) {
   .menu-burger {
