@@ -219,6 +219,7 @@ h6 {
   background-size: cover;
   min-height: 750px;
   padding: 215px 0px 215px 0px;
+  margin: 0px 0px 100px 0px;
 }
 
 .container {
@@ -298,7 +299,7 @@ h6 {
 /*---------- Стили для секции future ----------*/
 .future {
   max-width: 100%;
-  padding: 100px 0px 0px 0px;
+  margin: 0px 0px 100px 0px;
 }
 
 .container {
@@ -402,6 +403,7 @@ h6 {
   color: #161616;
 }
 
+/*---------- Стили для секции characters ----------*/
 /*----- Стили для устройств с шириной экрана более 1200px -----*/
 @media (min-width: 1200px) {
   .menu-burger {
