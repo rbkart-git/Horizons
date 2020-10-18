@@ -40,6 +40,7 @@ body {
   background-color: #f5fafe;
   font-size: 100%;
   line-height: 1;
+  overflow-x: hidden;
   font-size: 18px;
   font-family: "Lato Regular";
 }
@@ -764,9 +765,6 @@ h6 {
   .header-button {
     display: none;
   }
-  body {
-    overflow-x: hidden;
-  }
   .menu-burger {
     display: block;
   }
@@ -954,9 +952,6 @@ h6 {
 @media (min-width: 480px) and (max-width: 767.9px) {
   .container {
     padding: 0px 15px 0px 15px;
-  }
-  body {
-    overflow-x: hidden;
   }
   .header-list {
     display: none;
@@ -1236,9 +1231,6 @@ h6 {
 @media (min-width: 320px) and (max-width: 479.9px) {
   .container {
     padding: 0px 15px 0px 15px;
-  }
-  body {
-    overflow-x: hidden;
   }
   .header-list {
     display: none;

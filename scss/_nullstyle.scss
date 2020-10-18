@@ -33,6 +33,7 @@ body {
      background-color: $bgcolor;
      font-size: 100%;
      line-height: 1;
+     overflow-x: hidden;
      font-size: $fontsizedefault;
      font-family: $fontfamily;
 }
