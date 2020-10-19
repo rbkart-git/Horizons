@@ -4,30 +4,45 @@
      max-width: 100%;
 }
 .container {
-     max-width: 1304px;
+     max-width: $widthdefault;
      margin: 0 auto;
 }
 .technologies-wrapper {
      display: flex;
      align-items: flex-start;
      &__leftside {
-          max-width: 647px / 1304px * 100%;
+          max-width: 647px / $widthdefault * 100%;
           min-height: 500px;
           background: url("../image/index/optimized/technologies_bg.webp"),
                url("../image/index/technologies_bg-optimized.jpg");
           background-repeat: no-repeat;
           background-position: top center;
           background-size: cover;
+          margin: 0px 89px 0px -135px;
+          padding: 94px 82px 74px 135px;
      }
 
      &__leftside-title {
+          font-family: $fontfamily;
+          font-size: 24px;
+          line-height: 32px;
+          color: #ffffff;
+          margin: 0px 0px 20px 0px;
+          letter-spacing: 0.3px;
      }
 
      &__leftside-text {
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 24px;
+          color: #ffffff;
+          margin: 0px 0px 20px 0px;
      }
 
      &__rightside {
-          max-width: 548px / 1304px * 100%;
+          margin: 27px 0px 0px 0px;
+          max-width: 568px / $widthdefault * 100%;
           min-height: 446px;
           display: flex;
           justify-content: space-between;
@@ -35,19 +50,48 @@
      }
 
      &__rightside-item {
-          max-width: 269px / 548px * 100%;
+          max-width: 269px / 568px * 100%;
           min-height: 198px;
+     }
+     &__rightside-item:nth-child(1) {
+          margin: 0px 5px 49px 0px;
+     }
+     &__rightside-item:nth-child(2) {
+          margin: 0px 0px 49px 0px;
+     }
+     &__rightside-item:nth-child(3) {
+     }
+     &__rightside-item:nth-child(4) {
      }
 
      &__rightside-logo {
+          max-width: 80px;
+          min-height: 80px;
      }
 
      &__rightside-logo-image {
+          width: 80px;
+          height: 80px;
+          object-fit: cover;
+     }
+     &__rightside-logo-image:nth-child(1) {
+          margin: -6px 0px 0px -10px;
      }
 
      &__rightside-title {
+          font-family: $fontfamily;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 24px;
+          color: $colorfontdefault;
+          margin: 0px 0px 15px 0px;
      }
 
      &__rightside-text {
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 18px;
+          color: $colorfontdefault;
      }
 }

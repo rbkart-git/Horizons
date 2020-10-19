@@ -432,6 +432,9 @@ h6 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .characters-wrapper__leftside {
@@ -483,6 +486,9 @@ h6 {
 
 .characters-wrapper__rightside {
   max-width: 57.26496%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .characters-wrapper__rightside-item1 {
@@ -654,7 +660,7 @@ h6 {
 }
 
 .container {
-  max-width: 1304px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -668,16 +674,37 @@ h6 {
 }
 
 .technologies-wrapper__leftside {
-  max-width: 49.61656%;
+  max-width: 55.29915%;
   min-height: 500px;
   background: url("../image/index/optimized/technologies_bg.webp"), url("../image/index/technologies_bg-optimized.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  margin: 0px 89px 0px -135px;
+  padding: 94px 82px 74px 135px;
+}
+
+.technologies-wrapper__leftside-title {
+  font-family: "Lato Regular";
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 0px 0px 20px 0px;
+  letter-spacing: 0.3px;
+}
+
+.technologies-wrapper__leftside-text {
+  font-family: "Lato Light";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0px 0px 20px 0px;
 }
 
 .technologies-wrapper__rightside {
-  max-width: 42.02454%;
+  margin: 27px 0px 0px 0px;
+  max-width: 48.54701%;
   min-height: 446px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -690,8 +717,49 @@ h6 {
 }
 
 .technologies-wrapper__rightside-item {
-  max-width: 49.08759%;
+  max-width: 47.35915%;
   min-height: 198px;
+}
+
+.technologies-wrapper__rightside-item:nth-child(1) {
+  margin: 0px 5px 49px 0px;
+}
+
+.technologies-wrapper__rightside-item:nth-child(2) {
+  margin: 0px 0px 49px 0px;
+}
+
+.technologies-wrapper__rightside-logo {
+  max-width: 80px;
+  min-height: 80px;
+}
+
+.technologies-wrapper__rightside-logo-image {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.technologies-wrapper__rightside-logo-image:nth-child(1) {
+  margin: -6px 0px 0px -10px;
+}
+
+.technologies-wrapper__rightside-title {
+  font-family: "Lato Regular";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #161616;
+  margin: 0px 0px 15px 0px;
+}
+
+.technologies-wrapper__rightside-text {
+  font-family: "Lato Light";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #161616;
 }
 
 /*----- Стили для устройств с шириной экрана более 1200px -----*/

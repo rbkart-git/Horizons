@@ -19,6 +19,7 @@
 .characters-wrapper {
      display: flex;
      align-items: flex-start;
+     flex-grow: 1;
      &__leftside {
           max-width: 430px / $widthdefault * 100%;
           margin: 0px 70px 0px 0px;
@@ -71,6 +72,7 @@
 
      &__rightside {
           max-width: 670px / $widthdefault * 100%;
+          flex-grow: 1;
      }
 
      &__rightside-item1 {
