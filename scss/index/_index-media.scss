@@ -47,6 +47,20 @@
                margin: 45px 0px 0px 384px / 670px * 100%;
           }
      }
+     .technologies-wrapper {
+          flex-direction: column;
+          align-items: center;
+          &__leftside {
+               max-width: 90%;
+               min-height: 400px;
+               margin: 0px 0px 20px 0px;
+               padding: 75px;
+          }
+          &__rightside {
+               max-width: 90%;
+               padding: 0px 75px 75px 75px;
+          }
+     }
 }
 //
 //
@@ -227,6 +241,20 @@
 
           &__leftside-item2-text {
                font-size: 16px;
+          }
+     }
+     .technologies-wrapper {
+          flex-direction: column;
+          align-items: center;
+          &__leftside {
+               max-width: 90%;
+               min-height: 400px;
+               margin: 0px 0px 20px 0px;
+               padding: 75px;
+          }
+          &__rightside {
+               max-width: 98%;
+               padding: 0px 75px 75px 75px;
           }
      }
 }
@@ -486,6 +514,29 @@
                display: none;
           }
      }
+     .technologies-wrapper {
+          flex-direction: column;
+          align-items: center;
+          &__leftside {
+               max-width: 90%;
+               min-height: 400px;
+               margin: 0px 0px 20px 0px;
+               padding: 43px;
+          }
+          &__leftside-title {
+               font-size: 22px;
+               line-height: 28px;
+          }
+
+          &__leftside-text {
+               font-size: 16px;
+               line-height: 22px;
+          }
+          &__rightside {
+               max-width: 98%;
+               padding: 0px 25px 25px 25px;
+          }
+     }
 }
 /*----- Стили для устройств с шириной экрана от 320px до 479.9px-----*/
 @media (min-width: 320px) and (max-width: 479.9px) {
@@ -708,7 +759,7 @@
           }
 
           &__leftside-item1-text {
-               font-size: 13px;
+               font-size: 15px;
           }
 
           &__leftside-item2-title {
@@ -717,7 +768,7 @@
           }
 
           &__leftside-item2-text {
-               font-size: 13px;
+               font-size: 15px;
           }
           &__rightside {
                max-width: 90%;
@@ -777,6 +828,43 @@
           }
           &__rightside-item7 {
                display: none;
+          }
+     }
+     .technologies-wrapper {
+          flex-direction: column;
+          align-items: center;
+          &__leftside {
+               max-width: 90%;
+               min-height: 400px;
+               margin: 0px 0px 20px 0px;
+               padding: 25px;
+          }
+          &__leftside-title {
+               font-size: 20px;
+               line-height: 24px;
+          }
+
+          &__leftside-text {
+               font-size: 16px;
+               line-height: 20px;
+          }
+          &__rightside {
+               max-width: 98%;
+               padding: 0px 0px 25px 0px;
+               flex-direction: column;
+               align-items: center;
+          }
+          &__rightside-item {
+               max-width: 90%;
+          }
+          &__rightside-item:nth-child(1) {
+               margin: 0px 5px 25px 0px;
+          }
+          &__rightside-item:nth-child(2) {
+               margin: 0px 0px 25px 0px;
+          }
+          &__rightside-item:nth-child(3) {
+               margin: 0px 0px 25px 0px;
           }
      }
 }
