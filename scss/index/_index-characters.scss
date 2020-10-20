@@ -19,10 +19,10 @@
 .characters-wrapper {
      display: flex;
      align-items: flex-start;
-     flex-grow: 1;
      &__leftside {
           max-width: 430px / $widthdefault * 100%;
           margin: 0px 70px 0px 0px;
+          flex-grow: 1;
      }
 
      &__leftside-item1 {
@@ -79,6 +79,7 @@
           max-width: 286px / 670px * 100%;
           min-height: 246px;
           overflow: hidden;
+          flex-grow: 1;
      }
 
      &__rightside-item1-image1 {
@@ -110,9 +111,10 @@
           min-height: 294px;
           overflow: hidden;
           margin: -85px 0px 0px 316px / 670px * 100%;
+          flex-grow: 1;
      }
 
-     &__rightside-item1-image2 {
+     &__rightside-item2-image2 {
           width: 100%;
           height: 248px;
           border-radius: 40px;
@@ -143,6 +145,7 @@
           min-height: 185px;
           overflow: hidden;
           margin: -112px 0px 0px 0px;
+          flex-grow: 1;
      }
 
      &__rightside-item3-image3 {
@@ -158,6 +161,7 @@
           min-height: 197px;
           overflow: hidden;
           margin: -9px 0px 0px 434px / 670px * 100%;
+          flex-grow: 1;
      }
 
      &__rightside-item4-image4 {
@@ -173,6 +177,7 @@
           min-height: 298px;
           overflow: hidden;
           margin: -67px 0px 0px 24px / 670px * 100%;
+          flex-grow: 1;
      }
 
      &__rightside-item5-image5 {
@@ -188,6 +193,7 @@
           min-height: 248px;
           overflow: hidden;
           margin: 45px 0px 0px 246px / 670px * 100%;
+          flex-grow: 1;
      }
 
      &__rightside-item6-image6 {
@@ -221,6 +227,7 @@
           min-height: 197px;
           overflow: hidden;
           margin: -40px 0px 0px 0px;
+          flex-grow: 1;
      }
 
      &__rightside-item7-image7 {
