@@ -15,6 +15,7 @@
      line-height: 48px;
      color: $colorfontdefault;
      text-align: center;
+     letter-spacing: 0.3px;
      margin: 0px 0px 16px 0px;
 }
 .project-text {
@@ -24,7 +25,7 @@
      line-height: 24px;
      text-align: center;
      color: $colorfontdefault;
-     margin: 0px 0px 50px 0px;
+     margin: 0px 0px 46px 0px;
 }
 .project-wrapper {
      display: flex;
@@ -32,7 +33,7 @@
      align-items: flex-start;
      margin: 0px 0px 50px 0px;
      &__item {
-          max-width: 270px / $widthdefault * 100%;
+          max-width: 270px;
           min-height: 400px;
           background: #ffffff;
           box-shadow: 0px 4px 20px rgba(66, 119, 255, 0.1);
@@ -73,26 +74,25 @@
      }
 }
 .item-1 {
-     background: url("../../image/index/optimized/bg_life.webp"), url("../../image/index/bg_life-optimized.png");
+     background: url("../image/index/optimized/bg_life.webp"), url("../image/index/bg_life-optimized.png");
      background-repeat: no-repeat;
      background-position: top center;
      background-size: cover;
 }
 .item-2 {
-     background: url("../../image/index/optimized/bg_comedy.webp"), url("../../image/index/bg_comedy-optimized.png");
+     background: url("../image/index/optimized/bg_comedy.webp"), url("../image/index/bg_comedy-optimized.png");
      background-repeat: no-repeat;
      background-position: top center;
      background-size: cover;
 }
 .item-3 {
-     background: url("../../image/index/optimized/bg_combinico.webp"),
-          url("../../image/index/bg_combinico-optimized.png");
+     background: url("../image/index/optimized/bg_combinico.webp"), url("../image/index/bg_combinico-optimized.png");
      background-repeat: no-repeat;
      background-position: top center;
      background-size: cover;
 }
 .item-4 {
-     background: url("../../image/index/optimized/bg_shop.webp"), url("../../image/index/bg_shop-optimized.png");
+     background: url("../image/index/optimized/bg_shop.webp"), url("../image/index/bg_shop-optimized.png");
      background-repeat: no-repeat;
      background-position: top center;
      background-size: cover;

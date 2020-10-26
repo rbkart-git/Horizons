@@ -60,7 +60,19 @@
           }
           &__rightside {
                max-width: 90%;
-               padding: 0px 75px 75px 75px;
+               padding: 0px 75px 30px 75px;
+          }
+     }
+     .project {
+          padding: 60px 0px 60px 0px;
+     }
+     .project-wrapper {
+          max-width: 768px;
+          flex-wrap: wrap;
+          margin: 20px auto;
+          justify-content: space-evenly;
+          &__item {
+               margin: 0px 0px 20px 0px;
           }
      }
 }
@@ -258,7 +270,19 @@
           }
           &__rightside {
                max-width: 98%;
-               padding: 0px 75px 75px 75px;
+               padding: 0px 75px 30px 75px;
+          }
+     }
+     .project {
+          padding: 60px 0px 60px 0px;
+     }
+     .project-wrapper {
+          max-width: 768px;
+          flex-wrap: wrap;
+          margin: 20px auto;
+          justify-content: space-evenly;
+          &__item {
+               margin: 0px 0px 20px 0px;
           }
      }
 }
@@ -544,6 +568,27 @@
           &__rightside {
                max-width: 98%;
                padding: 0px 25px 25px 25px;
+          }
+     }
+     .project {
+          padding: 30px 0px 30px 0px;
+     }
+     .project-title {
+          font-size: 28px;
+          line-height: 32px;
+     }
+     .project-text {
+          font-size: 16px;
+          line-height: 22px;
+          margin: 0px 0px 25px 0px;
+     }
+     .project-wrapper {
+          max-width: 768px;
+          flex-wrap: wrap;
+          margin: 20px auto;
+          justify-content: space-evenly;
+          &__item {
+               margin: 0px 10px 20px 10px;
           }
      }
 }
@@ -879,6 +924,22 @@
           }
           &__rightside-item:nth-child(3) {
                margin: 0px 0px 25px 0px;
+          }
+     }
+     .project {
+          padding: 30px 0px 30px 0px;
+     }
+     .project-title {
+          font-size: 25px;
+          line-height: 30px;
+     }
+     .project-wrapper {
+          max-width: 768px;
+          flex-wrap: wrap;
+          margin: 20px auto;
+          justify-content: space-evenly;
+          &__item {
+               margin: 0px 10px 20px 10px;
           }
      }
 }
