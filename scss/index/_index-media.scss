@@ -75,6 +75,13 @@
                margin: 0px 0px 20px 0px;
           }
      }
+     .news-wrap {
+          display: flex;
+          max-width: 770px;
+          margin: 0 auto;
+          flex-wrap: wrap;
+          justify-content: center;
+     }
 }
 //
 //
@@ -284,6 +291,23 @@
           &__item {
                margin: 0px 0px 20px 0px;
           }
+     }
+     .news-wrap {
+          display: flex;
+          max-width: 770px;
+          margin: 0 auto;
+          flex-wrap: wrap;
+          justify-content: center;
+          &__block1 {
+               width: 770px;
+               height: 430px;
+               border-radius: 20px;
+          }
+     }
+     .big-iframe {
+          width: 770px;
+          height: 430px;
+          border-radius: 20px;
      }
 }
 //
@@ -590,6 +614,24 @@
           &__item {
                margin: 0px 10px 20px 10px;
           }
+     }
+     .news {
+          margin: 50px 0px 50px 0px;
+     }
+     .news-wrap {
+          display: flex;
+          max-width: 370px;
+          margin: 0 auto;
+          flex-wrap: wrap;
+          justify-content: center;
+          &__block1 {
+               width: 370px;
+               height: 208px;
+          }
+     }
+     .big-iframe {
+          width: 370px;
+          height: 208px;
      }
 }
 /*----- Стили для устройств с шириной экрана от 320px до 479.9px-----*/
@@ -941,5 +983,76 @@
           &__item {
                margin: 0px 10px 20px 10px;
           }
+     }
+     .news {
+          margin: 50px 0px 50px 0px;
+     }
+     .news-title {
+          font-size: 28px;
+          line-height: 36px;
+     }
+     .news-subtitle {
+          font-size: 16px;
+     }
+     .news-wrap {
+          display: flex;
+          max-width: 300px;
+          margin: 0 auto;
+          flex-wrap: wrap;
+          justify-content: center;
+          &__block2-title {
+               font-size: 16px;
+          }
+
+          &__block2-subtitle {
+               font-size: 12px;
+          }
+          &__block1 {
+               width: 290px;
+               height: 180px;
+               border-radius: 10px;
+          }
+          &__block2 {
+               width: 290px;
+               height: 180px;
+               border-radius: 10px;
+               padding: 90px 20px 4px 20px;
+          }
+          &__block3 {
+               width: 290px;
+               height: 180px;
+               border-radius: 10px;
+               padding: 90px 20px 4px 20px;
+          }
+          &__block4 {
+               width: 290px;
+               height: 180px;
+               border-radius: 10px;
+               padding: 90px 20px 4px 20px;
+          }
+          &__block4-wrap {
+               display: none;
+          }
+          &__block5 {
+               width: 290px;
+               height: 180px;
+               border-radius: 10px;
+               padding: 110px 20px 4px 20px;
+          }
+          &__block6 {
+               width: 290px;
+               height: 180px;
+               border-radius: 10px;
+          }
+     }
+     .big-iframe {
+          width: 290px;
+          height: 180px;
+          border-radius: 10px;
+     }
+     .small-iframe {
+          width: 290px;
+          height: 180px;
+          border-radius: 10px;
      }
 }

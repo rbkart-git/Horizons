@@ -36,8 +36,8 @@
           "block_1 block_1 block_5"
           "block_2 block_3 block_6";
      &__block1 {
-          max-width: 770px;
-          min-height: 430px;
+          width: 770px;
+          height: 430px;
           box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
           border-radius: 20px;
           overflow: hidden;
@@ -51,8 +51,8 @@
           background-repeat: no-repeat;
           background-position: top center;
           background-size: cover;
-          max-width: 370px;
-          min-height: 208px;
+          width: 370px;
+          height: 208px;
           box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
           border-radius: 20px;
           padding: 124px 20px 4px 20px;
@@ -81,8 +81,8 @@
           background-repeat: no-repeat;
           background-position: top center;
           background-size: cover;
-          max-width: 370px;
-          min-height: 208px;
+          width: 370px;
+          height: 208px;
           box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
           border-radius: 20px;
           padding: 124px 20px 4px 20px;
@@ -96,8 +96,8 @@
           background-repeat: no-repeat;
           background-position: top center;
           background-size: cover;
-          max-width: 370px;
-          min-height: 208px;
+          width: 370px;
+          height: 208px;
           box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
           border-radius: 20px;
           padding: 86px 20px 4px 20px;
@@ -147,8 +147,8 @@
           background-repeat: no-repeat;
           background-position: top center;
           background-size: cover;
-          max-width: 370px;
-          min-height: 208px;
+          width: 370px;
+          height: 208px;
           box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
           border-radius: 20px;
           padding: 146px 20px 4px 20px;
@@ -157,8 +157,8 @@
      }
 
      &__block6 {
-          max-width: 370px;
-          min-height: 208px;
+          width: 370px;
+          height: 208px;
           box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
           border-radius: 20px;
           overflow: hidden;
@@ -168,16 +168,16 @@
 }
 
 .big-iframe {
-     max-width: 770px;
-     min-height: 430px;
+     width: 770px;
+     height: 430px;
      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
      border-radius: 20px;
      overflow: hidden;
      cursor: pointer;
 }
 .small-iframe {
-     max-width: 370px;
-     min-height: 208px;
+     width: 370px;
+     height: 208px;
      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
      border-radius: 20px;
      overflow: hidden;
