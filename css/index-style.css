@@ -920,7 +920,7 @@ h6 {
 /*---------- Стили для секции news ----------*/
 .news {
   max-width: 100%;
-  margin: 0px 0px 100px 0px;
+  margin: 0px 0px 104px 0px;
 }
 
 .container {
@@ -1131,6 +1131,58 @@ h6 {
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
+}
+
+/*---------- Стили для секции create-future ----------*/
+.create {
+  background: url("../image/index/optimized/bg_picture-1.webp"), url("../image/index/bg_picture-1_optimized.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  min-height: 416px;
+  padding: 130px 0px 128px 0px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.create-title {
+  font-family: "Lato Regular";
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.create-text {
+  font-family: "Lato Regular";
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px 0px 31px 0px;
+}
+
+.create-button {
+  max-width: 246px;
+  min-height: 50px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 25px;
+}
+
+.create-button__button {
+  max-width: 246px;
+  min-height: 50px;
+  background-color: transparent;
+  font-family: "Lato Regular";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 134.77%;
+  color: #161616;
+  padding: 14px 44px 14px 47px;
 }
 
 /*----- Стили для устройств с шириной экрана более 1200px -----*/

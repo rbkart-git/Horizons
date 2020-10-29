@@ -1,0 +1,47 @@
+/*---------- Стили для секции create-future ----------*/
+
+.create {
+     background: url("../image/index/optimized/bg_picture-1.webp"), url("../image/index/bg_picture-1_optimized.jpg");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: cover;
+     min-height: 416px;
+     padding: 130px 0px 128px 0px;
+}
+.container {
+     max-width: $widthdefault;
+     margin: 0 auto;
+}
+.create-title {
+     font-family: $fontfamily;
+     font-size: 24px;
+     line-height: 38px;
+     text-align: center;
+     color: #ffffff;
+}
+.create-text {
+     font-family: $fontfamily;
+     font-size: 24px;
+     line-height: 38px;
+     text-align: center;
+     color: #ffffff;
+     margin: 0px 0px 31px 0px;
+}
+.create-button {
+     max-width: 246px;
+     min-height: 50px;
+     margin: 0 auto;
+     background: #ffffff;
+     border-radius: 25px;
+     &__button {
+          max-width: 246px;
+          min-height: 50px;
+          background-color: transparent;
+          font-family: $fontfamily;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 134.77%;
+          color: $colorfontdefault;
+          padding: 14px 44px 14px 47px;
+     }
+}
