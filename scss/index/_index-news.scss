@@ -166,3 +166,20 @@
           cursor: pointer;
      }
 }
+
+.big-iframe {
+     max-width: 770px;
+     min-height: 430px;
+     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+     border-radius: 20px;
+     overflow: hidden;
+     cursor: pointer;
+}
+.small-iframe {
+     max-width: 370px;
+     min-height: 208px;
+     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.03);
+     border-radius: 20px;
+     overflow: hidden;
+     cursor: pointer;
+}
