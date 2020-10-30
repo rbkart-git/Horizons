@@ -1,0 +1,48 @@
+/*---------- Стили для секции footer ----------*/
+.footer {
+     max-width: 100%;
+     padding: 183px 0px 78px 0px;
+}
+.container {
+     max-width: $widthdefault;
+     margin: 0 auto;
+}
+.footer-wrap {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     margin: 0px 0px 118px 0px;
+     &__list {
+          flex: 0 1 25%;
+     }
+
+     &__list-item {
+          margin: 0px 0px 15px 0px;
+     }
+     &__list-item:first-child {
+          margin: 0px 0px 25px 0px;
+     }
+     &__list-item:first-child > &__list-item-link {
+          font-family: $fontfamily;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 134.77%;
+          color: #878787;
+     }
+     &__list-item-link {
+          font-family: $fontfamily;
+          font-size: 14px;
+          line-height: 134.77%;
+          color: #a6a8ab;
+     }
+}
+.footer-logo {
+     width: 200px;
+     height: 57px;
+     margin: 0 auto;
+     &__Image {
+          width: 200px;
+          height: 57px;
+          object-fit: cover;
+     }
+}

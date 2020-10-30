@@ -1214,6 +1214,72 @@ h6 {
   margin: 0px 0px 10px 0px;
 }
 
+/*---------- Стили для секции footer ----------*/
+.footer {
+  max-width: 100%;
+  padding: 183px 0px 78px 0px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.footer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0px 0px 118px 0px;
+}
+
+.footer-wrap__list {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+}
+
+.footer-wrap__list-item {
+  margin: 0px 0px 15px 0px;
+}
+
+.footer-wrap__list-item:first-child {
+  margin: 0px 0px 25px 0px;
+}
+
+.footer-wrap__list-item:first-child > .footer-wrap__list-item-link {
+  font-family: "Lato Regular";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 134.77%;
+  color: #878787;
+}
+
+.footer-wrap__list-item-link {
+  font-family: "Lato Regular";
+  font-size: 14px;
+  line-height: 134.77%;
+  color: #a6a8ab;
+}
+
+.footer-logo {
+  width: 200px;
+  height: 57px;
+  margin: 0 auto;
+}
+
+.footer-logo__Image {
+  width: 200px;
+  height: 57px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /*----- Стили для устройств с шириной экрана более 1200px -----*/
 @media (min-width: 1200px) {
   .menu-burger {
@@ -1579,6 +1645,22 @@ h6 {
     width: 770px;
     height: 430px;
     border-radius: 20px;
+  }
+  .footer {
+    padding: 100px 0px 40px 0px;
+  }
+  .footer-wrap {
+    max-width: 768px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0 auto;
+    margin: 0px 0px 60px 0px;
+  }
+  .footer-wrap__list {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+    margin: 0px 0px 30px 0px;
   }
 }
 
@@ -1947,6 +2029,20 @@ h6 {
   .big-iframe {
     width: 370px;
     height: 208px;
+  }
+  .footer {
+    padding: 60px 0px 40px 0px;
+  }
+  .footer-wrap {
+    max-width: 210px;
+    margin: 25px auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-wrap__list {
+    margin: 0px 0px 30px 0px;
   }
 }
 
@@ -2417,5 +2513,30 @@ h6 {
     width: 290px;
     height: 180px;
     border-radius: 10px;
+  }
+  .footer {
+    padding: 60px 0px 40px 0px;
+  }
+  .footer-wrap {
+    max-width: 210px;
+    margin: 25px auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-wrap__list {
+    margin: 0px 0px 30px 0px;
+  }
+  .footer-logo {
+    width: 150px;
+    height: 48px;
+    margin: 0 auto;
+  }
+  .footer-logo__Image {
+    width: 150px;
+    height: 42px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
